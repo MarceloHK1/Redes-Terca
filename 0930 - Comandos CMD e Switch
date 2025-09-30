@@ -1,0 +1,34 @@
+Comandos CMD
+
+1) arp
+  a) -a
+    - Exibe os endereços IP da rede local que seu computador conhece e os respectivos 
+      endereços MAC associados a esses IPs.
+
+  b) -d
+    - Serve para deletar entradas da tabela ARP do computador.
+
+2) ipconfig
+  - Mostra o IP da máquina.
+  - /all: Mostra as configurações completas detalhadas de rede da sua máquina.
+
+3) ping
+  - Testa a conexão entre seu computador e outro dispositivo, por meio do IP.
+
+Comandos Switch
+1) ?
+  - Mostra todos os comandos executáveis.
+
+2) show ...
+  - Mostra as informações sobre a configuração e o estado do dispositivo digitado depois do show.
+
+3) enable (disable)
+  - Entrar no modo EXEC privilegiado.
+  - Muda o prompt de '>' para '#'.
+
+4) configure terminal (exit)
+  - Entrar no modo de configuração global.
+
+5) hostname SW...
+  - Precisa utilizar os comandos 3 e 4 antes.
+  - Definir o nome do dispositivo (switch).
