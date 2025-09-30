@@ -32,3 +32,13 @@ Comandos Switch
 5) hostname SW...
   - Precisa utilizar os comandos 3 e 4 antes.
   - Definir o nome do dispositivo (switch).
+
+6) startup-config
+  - Arquivo de configuração que fica salvo e é carregado toda vez que o equipamento inicializa.
+
+7) running-config
+  - Alteração feita no momento, não ficam salvas.
+  - Se desligar o switch perde tudo.
+
+8) copy running-config startup-config OU wr
+  - Salva a configuração que está rodando no momento na configuração de inicialização.
